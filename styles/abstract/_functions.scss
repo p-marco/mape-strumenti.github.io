@@ -1,8 +1,0 @@
-/* functions.scss */
-
-@mixin create-cols($span, $total) {
-    .col__#{$span}-#{$total} {
-      width: (($span/$total)*100%);
-    }
-  }
-  

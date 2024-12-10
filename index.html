@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mape strumenti</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet" />
+
+
+  <style>
+
+html,body {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  max-height: 100vh;
+  overflow-y: hidden;
+}
+
+.grid-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 20vh); 
+  grid-template-rows: repeat(5, 20vh); 
+  gap: 10px; 
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  aspect-ratio: 1 / 1; /* Mantiene il rapporto 1:1 */
+}
+
+.logo-area {
+  grid-column: span 3; /* Occupa 3 colonne */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) opacity(.75);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(5 * 20vh + 4 * 10px); 
+  max-width: 100%;
+  color: #333;
+}
+.text-title{
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.text-supertitle{
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 3.25rem;
+}
+section{
+  position:relative;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+.pt-5{
+  padding-top:3rem
+}
+.py-5{
+  padding-block: 3rem;
+}
+.list-no-decoration{
+  list-style-type: none;
+}
+.list-no-decoration li{
+padding: .5em;
+}
+
+.list-no-decoration a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.list-no-decoration .mdi{
+margin-right: 1em;
+}
+
+  </style>
+</head>
+<body>
+  <section>
+
+
+
+    <div class="navbar pt-5">
+      <div class="navbar-content">
+        <header class="">
+          <h1 class="text-title"> Mape Strumenti</h1>
+          <p class="text-title">Guitars and Basses</p>
+        </header>
+        <ul class="list-no-decoration">
+          <li><a href="http://mape-strumenti.it"><span class="mdi mdi-web"></span> mape-strumenti.it</a></li>
+          <li><a href="mailto:info@mape-strumenti.it"><span class="mdi mdi-email-outline"></span> info@mape-strumenti.it</a></li>
+          <li><a href="https://instagram.com/mape_strumenti"><span class="mdi mdi-instagram"></span> @mape_strumenti</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section>
+        <h2 class="text-supertitle text-center py-5">Coming soon</h2>
+  </section>
+
+
+  <section>
+    <div class="grid-wrapper">
+      <div class="grid-container">
+        <div class="grid-item"><img src="assets/img/web/001_4.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/frbr_1.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/lore_1.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/rima_header.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/frbr_4.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/001_header.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/rima_1.jpg" alt="Immagine"></div>
+
+        <div class="logo-area">
+          <img src="assets/img/mape-logoWeb-768x184.png" alt="Logo" class="logo">
+        </div>
+
+
+        <div class="grid-item"><img src="assets/img/web/001_2.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/frbr_3.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/001_1.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/001_5.jpg" alt="Immagine"></div>
+        <div class="grid-item"><img src="assets/img/web/rima_3.jpg" alt="Immagine"></div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
